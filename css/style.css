@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.menu{
+    background-color: #1e172f;
+}
+
+.logo{
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0px 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px 400px;
+    display: flex;
+    color: white;
+    
+}
+
+li {
+    margin-right: 25px; 
+}
+
+.bot{
+    background-color: #961cfa;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
