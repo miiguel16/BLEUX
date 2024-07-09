@@ -45,7 +45,7 @@ li {
     display: flex;
 }
 
-.left {
+#left {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -58,13 +58,13 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.left h1 {
+#left h1 {
     font-size: 70px;
     padding-right: 180px;
     width: 15px;
 }
 
-.left p{
+#left p{
     width: 450px;
     padding-left: 265px;
     padding-top: 4%;
@@ -97,7 +97,7 @@ li {
     color: #ffffff;
 }
 
-.right {
+#right {
     background-image: url(../assets/images/hojasFondo.jpg);
     background-size: cover;
     width: 50%;
@@ -114,5 +114,68 @@ li {
 
 .part2 {
     width: 100%;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part2 h2 {
+    margin: 2%;
+    color: rgb(224, 9, 224);
+    font-size: 70px;
+}
+
+#img-left{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img2{
+    width: 450px;
+    display: flex;
+}
+
+#right2 h3{
+    display: flex;
+    color: #e955e9;
+    font-size: 38px;
+    flex-direction: column;
+    margin-top: 2%;
+    padding-left: 130px;
+
+}
+
+#right2 p{    
+    margin-top: 2%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+}
+
+/* codigo para poner lineas horizontales de css */
+
+#line h4 {
+    margin-top: 5%;
+    display: flex;
+    padding-left: 130px;
+    font-size: 22px;
+    color:#e955e9;
+    width: 200px;
+}
+
+#line{
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    background-color: #e955e9;
+    height: 1.5px;
+    width: 7%;
+    display: flex;
+    margin-top: 6%;
+    margin-right: 5px;
 }
