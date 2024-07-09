@@ -114,6 +114,7 @@ li {
 
 .part2 {
     width: 100%;
+    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -133,22 +134,23 @@ li {
 }
 
 .img2{
-    width: 450px;
+    margin-top: 2%;
+    width: 430px;
+    height: 300px;
     display: flex;
 }
 
 #right2 h3{
+    margin-top: 7%;
     display: flex;
-    color: #e955e9;
-    font-size: 38px;
+    color: #e76565;
+    font-size: 35px;
     flex-direction: column;
-    margin-top: 2%;
     padding-left: 130px;
-
 }
 
 #right2 p{    
-    margin-top: 2%;
+    margin-top: 7%;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -158,7 +160,7 @@ li {
 /* codigo para poner lineas horizontales de css */
 
 #line h4 {
-    margin-top: 5%;
+    margin-top: 3.5%;
     display: flex;
     padding-left: 130px;
     font-size: 22px;
@@ -179,3 +181,45 @@ hr {
     margin-top: 6%;
     margin-right: 5px;
 }
+
+#list{
+    display: flex;
+    flex-direction: column;
+}
+
+#list p{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ #visto{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+
+ .part3{
+    display: flex;
+    width: 100%;
+    background-color: #390f57;
+    color: #FFFFFF;
+    padding: 25px 0;
+    align-items: center;
+ }
+
+ #up{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 580px;
+    margin-left: 550px;
+    
+ }
+
+ #up h2{
+    font-size: 55px;
+ }
