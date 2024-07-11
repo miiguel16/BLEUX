@@ -921,6 +921,9 @@ li {
 
 @media screen and (max-width: 480px) {
 
+nav{
+    padding-left: 22px;
+}
 .menu {
     width: 100%;
 }
