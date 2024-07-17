@@ -422,17 +422,17 @@ background-color: #ffffff;
 
 /* code to the bottons of suscribe now blue colors */
 
-.btn2 {
+#botn2{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 270px;
     height: 60px;
     margin-top: 30px;
-    background-color: #000000;
+    background-color: #e4dfe2;
 }
 
-#btn2 {
+.btn2 {
     padding: 13px;
     background-color:  #1D1973;
     color: #ffffff;
@@ -459,7 +459,7 @@ footer{
     align-items: center;
 }
 
-#photo{
+.photo{
     width: 30px;
 }
 
@@ -612,8 +612,10 @@ li {
     font-size: 13px;
     justify-content: center;
 }
+
 #box1{
     width: 200px;
+    height: 505px;
 }
 
 #box1 a{
@@ -622,6 +624,7 @@ li {
 
 #box2{
     width: 200px;
+    height: 505px;
 }
 
 #box2 a{
@@ -630,6 +633,7 @@ li {
 
 #box3{
     width: 200px;
+    height: 505px;
 }
 
 #box3 a{
@@ -650,12 +654,13 @@ li {
 
 .btn{
     width: 200px;
+    height: auto;
     margin-top: 30px;
 }
 
-.btn2{
+#botn2{
     width: 200px;
-    margin-top: 30px;
+    margin-top: 1   0px;
 }
 
 #medium {
@@ -914,11 +919,11 @@ li {
     font-size: 20px;
 }
 
-#btn2 {
+.btn2 {
     font-size: 20px;
 }
 
-.btn2{
+#botn2{
     width: 330px;
     margin-top: 60px;
 }
