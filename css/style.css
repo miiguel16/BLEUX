@@ -18,7 +18,7 @@
     padding: 0px 50px;
 }
 
-ul {
+#men {
     list-style-type: none;
     margin: 5px;
     padding: 20px 400px 15px;
@@ -26,12 +26,12 @@ ul {
     color: white;  
 }
 
-li {
+#men a {
     margin-right: 25px; 
 }
 
 .bot{
-    background-color: #961cfa;
+    background: linear-gradient(to right, #ee4dee, #8644ec, #4e89f7);
     color: #FFFFFF;
     padding: 15px 25px;
     border: none;
@@ -52,7 +52,7 @@ li {
     padding-top: 8%;
     width: 50%;
     height: 500px;
-    background-color: #390f57;
+    background-color: rgba(46,37,80,255);
     color: #ffffff;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,7 +92,7 @@ li {
     height: 40px;
     width: 150px;
     font-size: 18px;
-    background-color: #390f57;
+    background-color: rgba(46,37,80,255);
     border:solid #FFFFFF;
     color: #ffffff;
 }
@@ -146,7 +146,7 @@ li {
 #right2 h3{
     margin-top: 7%;
     display: flex;
-    color: #e76565;
+    color: #c81a72;
     font-size: 35px;
     flex-direction: column;
     padding-left: 130px;
@@ -206,7 +206,7 @@ hr {
  .part3{
     display: flex;
     width: 100%;
-    background-color: #191947;
+    background-color: #1e172f;
     color: #FFFFFF;
     padding: 25px 0;
     align-items: center;
@@ -237,7 +237,7 @@ hr {
     align-items: center;
     width: 100%;
     height: 600px;
-    background-color: #191947;
+    background-color: #1e172f;
 }
 
 .containerSec{
@@ -320,7 +320,7 @@ h2 {
 
 #btn1 {
     padding: 13px;
-    background-color: #f1489d;
+    background-color: #f41486;
     color: #ffffff;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
@@ -480,7 +480,7 @@ footer{
 }
 
 @media screen and (max-width: 1279px) {
-ul {
+#men {
     list-style-type: none;
     margin: 5px;
     padding: 20px 50px 20px;
@@ -551,7 +551,7 @@ li {
     padding-left: 90px;
 }
 
-ul {
+#men {
     margin: 3px;
     padding: 10px 40px 10px 30px;
 }
@@ -669,6 +669,7 @@ li {
 .menu {
     width: 100%;
 }
+
 .logo {
     width: 230px;
     margin-left: 150px;
@@ -677,7 +678,8 @@ li {
 .logo img{
     width: 120px;
 }
-ul {
+
+#men {
     width: auto;
     padding: 20px 0px 15px;
 }
@@ -747,6 +749,12 @@ li {
     width: auto;
 }
 
+.part2 {
+    align-items: center;
+    justify-content: center;
+    height: 510px;
+}
+
 .part2 h2 {
     font-size: 60px;
 }
@@ -776,8 +784,7 @@ li {
 }
 
 .img2{
-    width: 200px;
-    height: 300px;
+    display: none;
 }
 
 #up {
@@ -921,9 +928,6 @@ li {
 
 @media screen and (max-width: 480px) {
 
-nav{
-    padding-left: 22px;
-}
 .menu {
     width: 100%;
 }
@@ -935,13 +939,18 @@ nav{
 }
 
 .logo img{
-    width: 90px;
+    width: 70px;
     flex-direction: column;
 }
 
-ul {
-    width: auto;
-    padding: 10px 1px;
+#men {
+    width: 270px;
+}
+
+#men a{
+    font-size: 11px;
+    margin: 12px;
+    padding: 0;
 }
 
 .logo a{
@@ -1007,21 +1016,31 @@ li {
     font-size: 12px;
 }
 
-#right2{
-    width: 200px;
+.part2 {
+    height: 530px;
 }
 
 .part2 h2 {
-    font-size: 40px;
+    font-size: 48px;
+}
+
+#right2{
+    align-items: center;
+    padding-left: 45px;
+    width: 300px;
+    height: auto;
 }
 
 #right2 p {
-    width: 150px;
-    font-size: 20px;
+    font-size: 22px;
 }
+
+#right2 h3 {
+    font-size: 30px;
+}
+
 .img2 {
-    width: 140px;
-    height: 300px;
+    display: none;
 }
 
 #up p{
